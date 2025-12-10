@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="Progress:对相关文件进行更改，增加一个测试类">
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/ElectricCurtain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/ElevatingClothesDryingRack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartDoorLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartProjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartSpeaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartToilet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/TemperatureAndHumiditySensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/ElectricCooktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/ElectricWaterHeater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/RangeHood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/SmartTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/system_FYK/SmartHomeControlSystem.java" afterDir="false" />
+    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="Progress:系统">
+      <change afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cd/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/Alarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equipment/homeAppliances/Refrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/Refrigerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/equipment/homeAppliances/lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/lamp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,26 +72,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.TestPattern.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.TestPattern.executor": "Run",
+    "应用程序.test.executor": "Run"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TestPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPattern" />
+      <module name="Pattern-work" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TestPattern" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,7 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1765349913865</updated>
       <workItem from="1765349915134" duration="843000" />
-      <workItem from="1765350797328" duration="5050000" />
+      <workItem from="1765350797328" duration="7369000" />
+      <workItem from="1765358774901" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -170,7 +175,47 @@
       <option name="project" value="LOCAL" />
       <updated>1765355224983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Progress:对设备基类加多三个属性，一个ID，一个名字，一个状态，然后加入相关实体类使用">
+      <option name="closed" value="true" />
+      <created>1765356664411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765356664411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Progress:对基类进行set与get方法写入">
+      <option name="closed" value="true" />
+      <created>1765359160399</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765359160399</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Progress:对基类启动与关闭进行状态改变">
+      <option name="closed" value="true" />
+      <created>1765359614312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765359614312</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Progress:对基类启动与关闭进行自由化改造">
+      <option name="closed" value="true" />
+      <created>1765360232571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765360232571</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Progress:系统">
+      <option name="closed" value="true" />
+      <created>1765366573621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765366573621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +226,11 @@
     <MESSAGE value="Progress:设备接口类" />
     <MESSAGE value="Progress:设备类的实现，可拿去使用" />
     <MESSAGE value="Progress:对相关文件进行更改，增加一个测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress:对相关文件进行更改，增加一个测试类" />
+    <MESSAGE value="Progress:对设备基类加多三个属性，一个ID，一个名字，一个状态，然后加入相关实体类使用" />
+    <MESSAGE value="Progress:对基类进行set与get方法写入" />
+    <MESSAGE value="Progress:对基类启动与关闭进行状态改变" />
+    <MESSAGE value="Progress:对基类启动与关闭进行自由化改造" />
+    <MESSAGE value="Progress:系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress:系统" />
   </component>
 </project>

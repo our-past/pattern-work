@@ -6,6 +6,4 @@ import java.util.HashMap;
 
 public class SmartHomeControlSystem {
     HashMap<String, Equipment> equipments = new HashMap<>();
-
-    
 }
