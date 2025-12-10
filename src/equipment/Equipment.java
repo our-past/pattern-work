@@ -57,6 +57,25 @@ public abstract class Equipment {
      * 设备检查
      */
     public final void check() {
-        System.out.println("<UNK>");
+        System.out.println("设备检查");
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getId() {
+        return id;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setState(State state) {
+        this.state = state;
+    }
+    public State getState() {
+        return state;
     }
 }
