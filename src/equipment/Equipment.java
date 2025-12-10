@@ -35,17 +35,27 @@ public abstract class Equipment {
      */
     public abstract void activate();
 
+     /**
+     * 特定设备启动
+     */
+    public void startSelf(){
+
+    }
+    /**
+     * 特定设备关闭
+     */
+    public void stopSelf() {
+
+    }
+
     /**
      * 设备启动
      */
     public final void start() {
-        System.out.println("设备启动");
         selfCheck();
-        System.out.println("自检完成");
         register();
-        System.out.println("注册完成");
         activate();
-        System.out.println("激活完成");
+        startSelf();
         setState(new GreenState());
     }
 
@@ -53,7 +63,7 @@ public abstract class Equipment {
      * 设备关闭
      */
     public final void stop() {
-        System.out.println("设备关闭");
+        stopSelf();
         setState(new RedState());
     }
 
