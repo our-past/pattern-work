@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
-!**/src/test/**/out/
+!**/src/TestPattern/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -13,7 +13,7 @@ out/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/test/**/bin/
+!**/src/TestPattern/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
