@@ -4,46 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/111" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="Progress:设备接口类">
+      <change afterPath="$PROJECT_DIR$/src/equipment/ControllableDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/HomeAppliances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equipment/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/Equipment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "author": "our-past"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;our-past&quot;
     },
     {
-      "state": "OPEN",
-      "author": "longyuan56649826"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;longyuan56649826&quot;
     }
   ],
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/our-past/pattern-work.git",
-    "accountId": "db8050db-260f-4a03-b6c6-ba4a21c14995"
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/our-past/pattern-work.git&quot;,
+    &quot;accountId&quot;: &quot;db8050db-260f-4a03-b6c6-ba4a21c14995&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -72,6 +76,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -92,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765349913865</updated>
       <workItem from="1765349915134" duration="843000" />
-      <workItem from="1765350797328" duration="1065000" />
+      <workItem from="1765350797328" duration="2044000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -102,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765350951010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Progress:设备接口类">
+      <option name="closed" value="true" />
+      <created>1765352249036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765352249036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Progress:设备接口类">
+      <option name="closed" value="true" />
+      <created>1765352265986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765352265986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Progress:设备接口类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress:设备接口类" />
   </component>
 </project>
