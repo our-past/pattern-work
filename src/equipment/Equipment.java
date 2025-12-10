@@ -1,6 +1,8 @@
 package equipment;
 
 
+import equipment.State.GreenState;
+import equipment.State.RedState;
 import equipment.State.State;
 
 /**
@@ -44,6 +46,7 @@ public abstract class Equipment {
         System.out.println("注册完成");
         activate();
         System.out.println("激活完成");
+        setState(new GreenState());
     }
 
     /**
@@ -51,6 +54,7 @@ public abstract class Equipment {
      */
     public final void stop() {
         System.out.println("设备关闭");
+        setState(new RedState());
     }
 
     /**
