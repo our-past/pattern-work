@@ -7,6 +7,7 @@ import equipment.State.State;
 
 /**
  * 设备接口
+ * 负责人：ourPast
  */
 public abstract class Equipment {
     /**
