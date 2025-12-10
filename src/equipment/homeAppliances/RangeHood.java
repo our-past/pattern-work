@@ -4,21 +4,21 @@ import equipment.Equipment;
 import equipment.HomeAppliances;
 
 /**
- * 冰箱
+ *  抽油烟机
  */
-public class Refrigerator extends Equipment implements HomeAppliances {
+public class RangeHood extends Equipment implements HomeAppliances {
     @Override
     public void selfCheck() {
-        System.out.println(" Refrigerator selfCheck");
+        System.out.println(" RangeHood selfCheck");
     }
 
     @Override
     public void register() {
-        System.out.println(" Refrigerator register");
+        System.out.println(" RangeHood register");
     }
 
     @Override
     public void activate() {
-        System.out.println(" Refrigerator activate");
+        System.out.println(" RangeHood activate");
     }
 }

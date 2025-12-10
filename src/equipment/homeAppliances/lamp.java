@@ -3,6 +3,9 @@ package equipment.homeAppliances;
 import equipment.Equipment;
 import equipment.HomeAppliances;
 
+/**
+ * 灯
+ */
 public class lamp extends Equipment implements HomeAppliances {
     @Override
     public void selfCheck() {
