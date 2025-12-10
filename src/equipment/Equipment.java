@@ -1,10 +1,25 @@
 package equipment;
 
 
+import equipment.State.State;
+
 /**
  * 设备接口
  */
 public abstract class Equipment {
+    /**
+     * 设备ID
+     */
+    String id;
+    /**
+     * 设备名称
+     */
+    String name;
+    /**
+     * 设备状态
+     */
+    State state;
+
     /**
      * 自检
      */

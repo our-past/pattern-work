@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="Progress:设备类的实现，可拿去使用">
-      <change afterPath="$PROJECT_DIR$/src/TestPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a49811a7-8718-4b1e-857a-10e84faba59e" name="更改" comment="Progress:对相关文件进行更改，增加一个测试类">
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/ElectricCurtain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/ElevatingClothesDryingRack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartDoorLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartProjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartSpeaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/SmartToilet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/TemperatureAndHumiditySensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/ElectricCooktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/ElectricWaterHeater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/RangeHood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/SmartTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/system_FYK/SmartHomeControlSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cd/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/controllableDevice/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equipment/homeAppliances/Refrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/Refrigerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/equipment/homeAppliances/lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/equipment/homeAppliances/lamp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +74,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="21" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -105,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765349913865</updated>
       <workItem from="1765349915134" duration="843000" />
-      <workItem from="1765350797328" duration="3615000" />
+      <workItem from="1765350797328" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -139,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765353941819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Progress:对相关文件进行更改，增加一个测试类">
+      <option name="closed" value="true" />
+      <created>1765354750327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765354750327</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Progress:对相关文件进行更改，增加一个测试类">
+      <option name="closed" value="true" />
+      <created>1765355224983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765355224983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +180,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Progress:设备接口类" />
     <MESSAGE value="Progress:设备类的实现，可拿去使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress:设备类的实现，可拿去使用" />
+    <MESSAGE value="Progress:对相关文件进行更改，增加一个测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress:对相关文件进行更改，增加一个测试类" />
   </component>
 </project>

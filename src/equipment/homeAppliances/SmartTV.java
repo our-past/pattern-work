@@ -4,21 +4,21 @@ import equipment.Equipment;
 import equipment.HomeAppliances;
 
 /**
- * 灯
+ * 智能电视
  */
-public class lamp extends Equipment implements HomeAppliances {
+public class SmartTV extends Equipment implements HomeAppliances {
     @Override
     public void selfCheck() {
-        System.out.println(" Lamp selfCheck");
+        System.out.println(" SmartTV selfCheck");
     }
 
     @Override
     public void register() {
-        System.out.println(" Lamp register");
+        System.out.println(" SmartTV register");
     }
 
     @Override
     public void activate() {
-        System.out.println(" Lamp activate");
+        System.out.println(" SmartTV activate");
     }
 }

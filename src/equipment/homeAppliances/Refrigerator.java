@@ -4,21 +4,21 @@ import equipment.Equipment;
 import equipment.HomeAppliances;
 
 /**
- * 灯
+ * 冰箱
  */
-public class lamp extends Equipment implements HomeAppliances {
+public class Refrigerator extends Equipment implements HomeAppliances {
     @Override
     public void selfCheck() {
-        System.out.println(" Lamp selfCheck");
+        System.out.println(" Refrigerator selfCheck");
     }
 
     @Override
     public void register() {
-        System.out.println(" Lamp register");
+        System.out.println(" Refrigerator register");
     }
 
     @Override
     public void activate() {
-        System.out.println(" Lamp activate");
+        System.out.println(" Refrigerator activate");
     }
 }
